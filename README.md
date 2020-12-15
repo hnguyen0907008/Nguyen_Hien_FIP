@@ -3,7 +3,7 @@
 This is the website of Vancouver Art Gallery, showing the information of upcoming events, exhibition and art shop.
 3 webpages created by CSS and HTML5.
 
-![Main Logo](images/logo.svg)
+![Main Logo](images/logo.svg width=100)
 
 ## Team
 
