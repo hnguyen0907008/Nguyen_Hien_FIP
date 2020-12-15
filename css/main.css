@@ -1,0 +1,293 @@
+@charset "UTF-8";
+
+.hidden{
+    display: none;
+}
+
+/*Reset CSS*/
+div,p,body,header,footer,section,nav, h3,h4
+{ 
+	margin: 0; 
+	padding: 0; 
+}	
+
+img 
+{ 
+	border: none; /*Remove border if image is a link*/
+	margin: 0; 
+	padding: 0; 
+}
+
+a{
+    text-decoration: none;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+/*Main Styling*/
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main{
+    width: 960px;
+    margin: 0 auto;
+}
+
+/*Header*/
+header{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 150px;
+    background-color: #ffe4c4;
+}
+
+.logo{
+    height: 100px;
+    width: 250px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.menu{
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.menu ul li a{
+    color: #C71585;
+}
+
+/*Footer*/
+footer{
+    display: flex;
+    height: 150px;
+    margin-top: 40px;
+    flex-direction: column;
+    background-color: #C71585;
+}
+.footer{
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.footerNav{
+    margin-right: auto;
+    margin-top: 50px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.footerNav ul{
+    margin-top: 30px;
+}
+
+.footerNav ul li a{
+    color: white;
+}
+
+/*INDEX PAGE*/
+.hero{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #C71585;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    height: 260px;
+    color: white;
+}
+
+#hero{
+    border: 1px solid white;
+}
+
+#whats-on{
+    width: 400px;
+    margin-top: 30px;
+}
+
+#whats-on p{
+    margin-right: 30px;
+}
+
+#whats-on h3{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+#notice{
+    color: #ffe4c4;
+    font-weight: 900;
+}
+
+.activities{
+    margin-top: 40px;
+    height: 250px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*EVENTS PAGE*/
+.events{
+    background-color: #C71585;
+    height: 250px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+#events-highlight{
+    color: white;
+    padding: 20px;
+    width: 520px;
+}
+
+#events-highlight h3{
+    color: #ffe4c4;
+    font-size: 28px;
+}
+
+#events-highlight h4{
+    font-size: 21px;
+}
+
+#events-highlight p{
+    margin-top: 20px;
+}
+
+#learn-highlight{
+    text-align: left;
+    border: 1px solid #ffe4c4;
+    color: #ffe4c4;
+    padding: 5px;
+    margin-top: 20px;
+    width: 105px;
+    background-color: #C71585;
+}
+
+#learn-highlight:hover{
+    border: 1px solid white;
+    background-color: white;
+    color: #C71585;
+}
+
+.exhibitions{
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 350px;
+    border-top: 1px solid#C71585;
+    border-bottom: 1px solid#C71585;
+}
+
+.check-exhibiton{
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+}
+
+.check-exhibiton img{
+    height: 220px;
+    margin-bottom: 10px;
+}
+
+.check-exhibiton h4{
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: auto;
+}
+
+#learn{
+    text-align: left;
+    background-color: white;
+    border: 1px solid #C71585;
+    color:#C71585;
+    padding: 5px;
+    margin-top: auto;
+    width: 105px;
+}
+
+#learn:hover{
+    background-color: #C71585;
+    color: white;
+}
+
+/*CONTACT PAGE*/
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.contact-info, .contact-form{
+    width: 460px;
+    height: 700px;
+}
+
+.contact-info h3, .contact-form h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:  #C71585;
+}
+
+.contact-info{
+    padding-top: 20px;
+}
+
+.contact-info h4, label{
+    font-size: 21px;
+}
+
+.contact-form{
+    border: 1px solid #C71585;
+    padding: 20px;
+}
+
+input{
+    width: 100%;
+    height: 35px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+textarea{
+    width: 100%;
+    height: 200px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#send{
+    padding: 10px 20px;
+    font-size: 21px;
+    color: #C71585;
+    border: 1px solid  #C71585;
+    border-radius: 8px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#send:hover{
+    background-color: #C71585;
+    color: white;
+}
